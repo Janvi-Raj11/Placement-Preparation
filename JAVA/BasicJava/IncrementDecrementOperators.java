@@ -62,7 +62,7 @@ public class IncrementDecrementOperators {
          * System.out.println(n);
          */
 
-
+        //IMPORTANT
         /*
          * int a=10;
          * a=a++;
@@ -109,10 +109,19 @@ public class IncrementDecrementOperators {
          * System.out.println(c);
          */
 
-        
-        byte b = 127;
-        b++;
-        System.out.println(b);
+
+        /*int a=10;
+        System.out.println( ++a + a++ +  a++ + ++a);
+        System.out.println(a);*/
+
+
+        int x=45;
+        int y=x++;
+        System.out.println(++x + ++x + ++y + y++ + ++x);
+        System.out.println(x);
+        System.out.println(y);
+
+
 
     }
 
