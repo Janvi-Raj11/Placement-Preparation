@@ -1,3 +1,17 @@
+/*Problem: To Lower Case (LeetCode 709)
+
+Approach 1: StringBuilder
+TC: O(n)
+SC: O(n)
+
+Approach 2: char[]
+TC: O(n)
+SC: O(n)
+
+Preferred: char[] → simple and direct modification.
+3. Is there an O(1) space approach?
+Not really if the method must return a new String, because Java String is immutable and the result itself requires O(n) storage.*/
+
 public class ToLowerCase {
     public static void main(String[] args) {
         String s = "HeLlO";
