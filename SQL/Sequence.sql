@@ -1,4 +1,3 @@
-```sql
 /*
 ==========================================================
                     SQL SEQUENCE
@@ -335,7 +334,7 @@ S_ID    NAME
 
 /*
 ----------------------------------------------------------
-10. My Mistake: Inserting More Than MAXVALUE
+My Mistake: Inserting More Than MAXVALUE
 ----------------------------------------------------------
 */
 
@@ -393,11 +392,9 @@ START WITH
 Defines the first value.
 
 Example:
-*/
 
-START WITH 5;
+START WITH 5
 
-/*
 First value:
 
 5
@@ -412,11 +409,9 @@ INCREMENT BY
 Defines the difference between values.
 
 Example:
-*/
 
-INCREMENT BY 2;
+INCREMENT BY 2
 
-/*
 Values:
 
 1
@@ -426,11 +421,9 @@ Values:
 ...
 
 Negative increment creates a descending sequence:
-*/
 
-INCREMENT BY -1;
+INCREMENT BY -1
 
-/*
 Values:
 
 10
@@ -450,9 +443,9 @@ Defines the maximum allowed value for
 an ascending sequence.
 
 Example:
-*/
 
-MAXVALUE 10;
+MAXVALUE 10
+*/
 
 
 /*
@@ -464,9 +457,9 @@ Defines the minimum allowed value,
 especially important for descending sequences.
 
 Example:
-*/
 
-MINVALUE 1;
+MINVALUE 1
+*/
 
 
 /*
@@ -475,11 +468,7 @@ CYCLE
 ----------------------------------------------------------
 
 Restarts the sequence after reaching its limit.
-*/
 
-CYCLE;
-
-/*
 Example:
 
 1 2 3 4 5 1 2 3...
@@ -509,9 +498,9 @@ CACHE
 Preallocates sequence numbers for better performance.
 
 Example:
-*/
 
-CACHE 20;
+CACHE 20
+*/
 
 
 /*
@@ -664,4 +653,3 @@ SEQUENCE
 
 ==========================================================
 */
-```
