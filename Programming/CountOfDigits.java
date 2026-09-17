@@ -1,7 +1,7 @@
 //WAP to count the number of digits in a given number.
 public class CountOfDigits {
     public static void main(String[] args) {
-        int digits =10000000;
+        int digits =0;  //EDGE CASE
         int res = CountOfDigits(digits);
         System.out.println("CountOfDigits is: " + res);
 
